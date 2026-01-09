@@ -1,0 +1,19 @@
+{
+    "folders": {},
+    "connections": {
+        "biggpdb-postgis": {
+            "provider": "postgresql",
+            "driver": "postgres-jdbc",
+            "name": "biggpdb (Rally GIS)",
+            "save-password": true,
+            "configuration": {
+                "host": "localhost",
+                "port": "5432",
+                "database": "biggpdb",
+                "user": "postgres",
+                "password": "postgres",
+                "url": "jdbc:postgresql://localhost:5432/biggpdb"
+            }
+        }
+    }
+}
